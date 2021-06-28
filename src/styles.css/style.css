@@ -132,3 +132,70 @@ body {
 .whats-happening-item1-top > div {
   padding: 10px;
 }
+
+.CreateTweet-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.CreateTweet-content-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 40px;
+
+  align-items: center;
+}
+.CreateTweet-content-top > h2 {
+  font-size: 20px;
+}
+.CreateTweet-content-mid {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+}
+.profile-picture {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url("https://lh3.googleusercontent.com/a-/AOh14Gh3WoG0axMrL3zMfpobckSvpPLy6z1zW244990wZg=s96-c-rg-br100");
+  mask-repeat: no-repeat;
+  background-size: contain;
+}
+.CreateTweet-content-mid > p {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #61686e;
+}
+.CreateTweet-content-bot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.CreateTweet-content-bot-left {
+  display: flex;
+  width: 70%;
+
+  justify-content: center;
+}
+.CreateTweet-content-bot-left > img {
+  padding: 0 7px;
+}
+.CreateTweet-content-bot-right {
+  width: 30%;
+  display: flex;
+
+  justify-content: center;
+}
+.tweet-btn {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #0e5079;
+}

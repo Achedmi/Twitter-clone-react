@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+a {
+  color: rgb(27, 149, 224);
+  text-decoration: none;
+}
+body {
+  height: 1500px;
+  background-color: black;
+}
+.App {
+  width: 100%;
+  height: 1500px;
+  background-color: rgba(255, 255, 255, 0.274);
+  display: flex;
+  flex-direction: row;
+  column-gap: 2px;
+}
+
+.App > div {
+  width: 33.33%;
+  background-color: black;
+}
+
+.left-menu-content {
+  position: fixed;
+  left: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  padding-top: 20px;
+}
+.left-menu-item,
+.logo {
+  display: flex;
+  flex-direction: row;
+}
+.left-menu-item > p {
+  padding-left: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+.right-part-content {
+  position: fixed;
+  right: 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  row-gap: 10px;
+}
+.search-input {
+  width: 350px;
+  height: 46px;
+  border-radius: 20px;
+  background-color: #15181c;
+  border: none;
+  padding-left: 20px;
+}
+
+.whats-happening {
+  height: 525px;
+  width: 350px;
+  background-color: #1d2127;
+  border-radius: 20px;
+}
+.whats-happening-content {
+  display: flex;
+
+  flex-direction: column;
+}
+.whats-happening-content > div {
+  padding: 10px;
+  padding-left: 20px;
+  color: white;
+}
+.whats-happening-title > h1 {
+  color: white;
+  font-size: 20px;
+}
+
+.whats-happening-item1-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.whats-happening-item1-left {
+  width: 70%;
+}
+.whats-happening-item1-left > p {
+  color: rgb(110, 118, 125);
+}
+.whats-happening-item1-right {
+  display: flex;
+  align-content: center;
+
+  align-items: center;
+}
+.whats-happening-item1-image {
+  width: 70px;
+  height: 70px;
+  background-image: url("https://pbs.twimg.com/ext_tw_video_thumb/1409525107349929989/pu/img/R2w68U4OA9I5AmET?format=jpg&name=120x120");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.whats-happening-separator {
+  margin-top: 15px;
+  height: 0.5px;
+  background-color: #41464c;
+  border: none;
+}
+.whats-happening-item2-content {
+  display: flex;
+  flex-direction: column;
+}
+.whats-happening-item1-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.whats-happening-item1-top > div {
+  padding: 10px;
+}

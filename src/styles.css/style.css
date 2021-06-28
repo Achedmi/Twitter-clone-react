@@ -30,7 +30,7 @@ body {
 
 .left-menu-content {
   position: fixed;
-  left: 20%;
+  left: 400px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -50,7 +50,7 @@ body {
 }
 .right-part-content {
   position: fixed;
-  right: 13%;
+  right: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,4 +198,37 @@ body {
   height: 40px;
   border-radius: 20px;
   background-color: #0e5079;
+}
+
+.Tweet1-content {
+  padding-top: 10px;
+  height: 83px;
+
+  color: white;
+
+  display: flex;
+  flex-direction: row;
+}
+.Tweet1-content > div {
+  padding: 0 10px;
+}
+.Tweet1-content-mid {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  width: 80%;
+}
+
+.Tweet1-content-mid-top > span {
+  font-weight: 900;
+}
+.Tweet1-content-mid-top > label {
+  color: #61686e;
+}
+
+.Tweet1-content-mid-bot {
+  display: flex;
+  padding-top: 10px;
+
+  justify-content: space-between;
 }
